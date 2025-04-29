@@ -18,7 +18,8 @@ int enqueu(int x){
     return 0;
 }
 
-//logic for getting the front
+//logic for getting the rear
+
 
 int get_rare(){
     if(total_item==0){
