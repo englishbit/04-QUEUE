@@ -19,6 +19,8 @@ int main(){
         stk.push(q.front());
         q.pop();
     }
+
+    //logic for moving all elements from stack to queue
     while(!stk.empty()){
         q.push(stk.top());
         stk.pop();
@@ -32,4 +34,5 @@ int main(){
     return 0;
 
 }
+
 
