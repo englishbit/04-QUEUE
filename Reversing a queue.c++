@@ -26,6 +26,7 @@ int main(){
         stk.pop();
     }
 
+    //logic for output
     while(!q.empty()){
         cout<<q.front()<<" ";
         q.pop();
@@ -34,5 +35,3 @@ int main(){
     return 0;
 
 }
-
-
