@@ -12,6 +12,8 @@ int main(){
         cin>>x;
         q.push(x);
     }
+
+    //logic for moving all elements from the queue to stack
     stack<int>stk;
     while(!q.empty()){
         stk.push(q.front());
@@ -30,3 +32,4 @@ int main(){
     return 0;
 
 }
+
