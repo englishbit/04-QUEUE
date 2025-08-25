@@ -3,6 +3,7 @@
 #include<queue>
 using namespace std;
 int main(){
+    //logic for taking input
     int n;
     cin>>n;
     queue<int>q;
@@ -27,4 +28,5 @@ int main(){
     }
 
     return 0;
+
 }
