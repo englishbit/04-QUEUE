@@ -20,6 +20,7 @@ int main(){
         q.pop();
     }
 
+    //logic for output
     for(int i=0;i<s.length();i++){
         char c=s[i];
         int indx=c-'a';
@@ -34,6 +35,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
