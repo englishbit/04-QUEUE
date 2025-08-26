@@ -12,6 +12,7 @@ int main(){
     }
 
     char count[26]={0};
+    //logic for counting all frequencies 
     while(!q.empty()){
         char c=q.front();
         int indx=c-'a';
@@ -33,5 +34,6 @@ int main(){
     return 0;
 
 }
+
 
 
