@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
     string s;
+    //logic for taking input
     cin>>s;
     queue<char>q;
     for(int i=0;i<s.length();i++){
@@ -31,3 +32,4 @@ int main(){
     return 0;
 
 }
+
