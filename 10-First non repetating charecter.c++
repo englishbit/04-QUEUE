@@ -6,6 +6,7 @@ int main(){
     //logic for taking input
     cin>>s;
     queue<char>q;
+    //logic for inserting the string into queue
     for(int i=0;i<s.length();i++){
         q.push(s[i]);
     }
@@ -32,4 +33,5 @@ int main(){
     return 0;
 
 }
+
 
