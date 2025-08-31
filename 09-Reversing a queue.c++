@@ -6,6 +6,7 @@ int main(){
     //logic for taking input
     int n;
     cin>>n;
+    //logic for inserting elements into queue
     queue<int>q;
     for(int i=0;i<n;i++){
         int x;
@@ -35,4 +36,5 @@ int main(){
     return 0;
 
 }
+
 
