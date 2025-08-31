@@ -3,7 +3,7 @@
 
 long long rear=-1;
 long long queue[MAX];
-//logic for inserting
+//logic for inserting function
     void insert(long long value){
     if(rear==MAX-1){
         printf("the queue is full\n");
@@ -48,3 +48,4 @@ int main(){
 
     return 0;
 }
+
